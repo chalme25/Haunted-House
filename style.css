@@ -1,0 +1,294 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #333;
+  position: relative;
+  background-image: linear-gradient(rgba(161, 150, 121, 1), rgba(2, 0, 36, 1));
+  min-height: 100%;
+}
+
+.background-2 {
+  background: rgb(3, 2, 13);
+  background: radial-gradient(
+    circle,
+    rgba(3, 2, 13, 1) 20%,
+    rgba(59, 13, 10, 1) 100%
+  );
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.bats,
+.doors,
+.clocks,
+.skulls {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#small-bat {
+  position: absolute;
+  left: -30rem;
+  top: 20rem;
+  z-index: 1;
+}
+
+#small-bat-2 {
+  position: absolute;
+  right: -25rem;
+  top: 25rem;
+  z-index: 1;
+}
+
+#big-bat {
+  z-index: 1;
+  right: 20rem;
+}
+
+.Bat-1 {
+  position: relative;
+  opacity: 0;
+  animation-name: flap;
+  animation-timing-function: steps(2, jump-none);
+  animation-duration: 1.5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  /* width: 25%;
+  height: 25%; */
+  width: 15rem;
+  height: 15rem;
+}
+
+.Bat-2 {
+  position: absolute;
+  animation-name: flap-2;
+  animation-timing-function: steps(2, jump-none);
+  animation-duration: 1.5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  /* width: 25%;
+  height: 100%; */
+  width: 15rem;
+  height: 15rem;
+}
+
+.door-1 {
+  position: relative;
+  opacity: 0;
+  animation-name: flap;
+  animation-timing-function: steps(2, jump-none);
+  animation-duration: 1.5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  /* height: 100%; */
+  /* top: -15rem; */
+  height: 60rem;
+  width: 60rem;
+}
+
+.door-2 {
+  position: absolute;
+
+  animation-name: flap-2;
+  animation-timing-function: steps(2, jump-none);
+  animation-duration: 1.5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  /* height: 100%; */
+  /* top: -15rem; */
+  height: 60rem;
+  width: 60rem;
+}
+
+.clock-1 {
+  position: relative;
+  opacity: 0;
+  animation-name: flap;
+  animation-timing-function: steps(2, jump-none);
+  animation-duration: 1.5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  width: 60rem;
+  height: 60rem;
+}
+
+.clock-2 {
+  position: absolute;
+
+  animation-name: flap-2;
+  animation-timing-function: steps(2, jump-none);
+  animation-duration: 1.5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  /* height: 100%; */
+  /* top: -15rem; */
+  height: 60rem;
+  width: 60rem;
+}
+
+.skull-1 {
+  position: relative;
+  opacity: 0;
+  animation-name: flap;
+  animation-timing-function: steps(2, jump-none);
+  animation-duration: 0.15s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  width: 60rem;
+  height: 60rem;
+}
+
+.skull-2 {
+  position: absolute;
+
+  animation-name: flap-2;
+  animation-timing-function: steps(2, jump-none);
+  animation-duration: 0.15s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  /* height: 100%; */
+  /* top: -15rem; */
+  height: 60rem;
+  width: 60rem;
+}
+
+@keyframes flap {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes flap-2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+.house-box,
+.pie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.house-img {
+  height: 60rem;
+  width: 60rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -20rem;
+}
+
+.pie-1 {
+  height: 60rem;
+  width: 60rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -50rem;
+  left: 30rem;
+}
+
+.doors-box {
+  height: 60rem;
+  width: 60rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -20rem;
+}
+
+.text-box {
+  background: black;
+  border: 4px solid #eee;
+  bottom: 0;
+  position: fixed;
+  display: inline-block;
+  width: 100%;
+  /* height: 26%; */
+  height: 18rem;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.text {
+  font-size: 2.4rem;
+  color: #eee;
+  align-self: flex-start;
+  letter-spacing: 0.1rem;
+}
+
+.next-btn {
+  background: black;
+  border: 4px solid #eee;
+  padding: 1rem 2rem;
+  width: 10rem;
+  height: 5rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+  font-size: 1.8rem;
+  margin-top: 2.5%;
+}
+
+.next-btn:hover,
+.next-btn:active {
+  background-color: #333;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}

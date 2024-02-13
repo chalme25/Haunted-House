@@ -1,0 +1,605 @@
+/* 1200px */
+@media (max-width: 75em) {
+  .pie-1 {
+    left: 20rem;
+  }
+
+  #small-bat {
+    left: -5rem;
+  }
+
+  #small-bat-2 {
+    right: 0rem;
+  }
+
+  #big-bat {
+    right: 5rem;
+  }
+}
+
+/* 1072px */
+@media (max-width: 67em) {
+  .house-img {
+    height: 50rem;
+    width: 50rem;
+    top: -12rem;
+  }
+
+  .skull-1,
+  .skull-2 {
+    height: 50rem;
+    width: 50rem;
+    top: 5rem;
+  }
+
+  .pie-1 {
+    height: 40rem;
+    width: 40rem;
+    left: 15rem;
+    top: -30rem;
+  }
+}
+
+/* 928px */
+@media (max-width: 58em) {
+  .house-img {
+    /* height: 45rem;
+    width: 45rem; */
+    top: -10rem;
+  }
+
+  #small-bat {
+    left: -2rem;
+  }
+
+  #small-bat-2 {
+    right: 0rem;
+  }
+
+  #big-bat {
+    bottom: -6rem;
+  }
+
+  .Bat-1,
+  .Bat-2 {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .pie-1 {
+    height: 40rem;
+    width: 40rem;
+    left: 7rem;
+    top: -30rem;
+  }
+}
+
+/* 640px */
+@media (max-width: 40em) {
+  .house-img {
+    height: 45rem;
+    width: 45rem;
+    top: -5rem;
+  }
+
+  .door-1,
+  .door-2,
+  .clock-1,
+  .clock-2 {
+    height: 50rem;
+    width: 50rem;
+    top: 4rem;
+  }
+}
+
+/* 624px */
+@media (max-width: 39em) {
+  .pie-1 {
+    height: 35rem;
+    width: 35rem;
+    left: 1.5rem;
+    top: -25rem;
+  }
+}
+
+/* 544px */
+@media (max-width: 34em) {
+  .house-img {
+    height: 35rem;
+    width: 35rem;
+    top: -2rem;
+  }
+
+  .door-1,
+  .door-2,
+  .clock-1,
+  .clock-2,
+  .skull-1,
+  .skull-2 {
+    height: 44rem;
+    width: 44rem;
+  }
+
+  .pie-1 {
+    height: 30rem;
+    width: 30rem;
+    left: 1.5rem;
+    top: -25rem;
+  }
+
+  .text-flex {
+    padding: 1rem;
+  }
+
+  .text {
+    font-size: 1.8rem;
+  }
+
+  .next-btn {
+    width: 8rem;
+    height: 4rem;
+    font-size: 1.2rem;
+    margin-top: 5%;
+  }
+}
+
+/* 448px */
+@media (max-width: 28em) {
+  .house-img {
+    height: 30rem;
+    width: 30rem;
+    top: -2rem;
+  }
+
+  .Bat-1,
+  .Bat-2 {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .door-1,
+  .door-2,
+  .clock-1,
+  .clock-2,
+  .skull-1,
+  .skull-2 {
+    height: 38rem;
+    width: 38rem;
+  }
+
+  .pie-1 {
+    height: 25rem;
+    width: 25rem;
+
+    top: -20rem;
+  }
+}
+
+/* 384px */
+@media (max-width: 24em) {
+  .house-img {
+    height: 25rem;
+    width: 25rem;
+    top: 2rem;
+  }
+
+  .door-1,
+  .door-2,
+  .clock-1,
+  .clock-2,
+  .skull-1,
+  .skull-2 {
+    height: 32rem;
+    width: 32rem;
+  }
+}
+
+/* Height 320px */
+@media (min-height: 0rem) and (max-height: 20rem) {
+  .house-img {
+    height: 20rem;
+    width: 20rem;
+    top: -7rem;
+  }
+
+  #small-bat {
+    left: 22rem;
+    top: 0rem;
+  }
+
+  #small-bat-2 {
+    right: 19rem;
+    top: 3rem;
+  }
+
+  #big-bat {
+    bottom: -5rem;
+  }
+
+  .Bat-1,
+  .Bat-2 {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .door-1,
+  .door-2,
+  .clock-1,
+  .clock-2 {
+    height: 22rem;
+    width: 22rem;
+  }
+
+  .skull-1,
+  .skull-2 {
+    height: 22rem;
+    width: 22rem;
+    top: 0rem;
+  }
+
+  .pie-1 {
+    height: 25rem;
+    width: 25rem;
+    top: -22rem;
+  }
+
+  .text-box {
+    height: 9rem;
+  }
+
+  .text-flex {
+    padding: 1rem;
+  }
+
+  .text {
+    font-size: 1.8rem;
+  }
+
+  .next-btn {
+    width: 8rem;
+    height: 4rem;
+    font-size: 1.2rem;
+    margin-top: 1%;
+    border: 2px solid #eee;
+  }
+}
+
+/* Height 384px */
+@media (min-height: 20rem) and (max-height: 24rem) {
+  .house-img {
+    height: 22rem;
+    width: 22rem;
+    top: -7rem;
+  }
+
+  #small-bat {
+    left: 19rem;
+    top: 0rem;
+  }
+
+  #small-bat-2 {
+    right: 16rem;
+    top: 3rem;
+  }
+
+  #big-bat {
+    bottom: -5rem;
+  }
+
+  .Bat-1,
+  .Bat-2 {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .door-1,
+  .door-2,
+  .clock-1,
+  .clock-2 {
+    height: 25rem;
+    width: 25rem;
+  }
+
+  .skull-1,
+  .skull-2 {
+    height: 25rem;
+    width: 25rem;
+    top: 0rem;
+  }
+
+  .pie-1 {
+    height: 25rem;
+    width: 25rem;
+    top: -22rem;
+  }
+
+  .text-box {
+    height: 12rem;
+  }
+
+  .text-flex {
+    padding: 1rem;
+  }
+
+  .text {
+    font-size: 1.8rem;
+  }
+
+  .next-btn {
+    width: 8rem;
+    height: 4rem;
+    font-size: 1.2rem;
+    margin-top: 1%;
+    border: 2px solid #eee;
+  }
+}
+
+/* Height 416px */
+@media (min-height: 24rem) and (max-height: 26rem) {
+  .house-img {
+    height: 24rem;
+    width: 24rem;
+    top: -8rem;
+  }
+
+  #small-bat {
+    left: 19rem;
+    top: 0rem;
+  }
+
+  #small-bat-2 {
+    right: 16rem;
+    top: 3rem;
+  }
+
+  #big-bat {
+    bottom: -5rem;
+  }
+
+  .Bat-1,
+  .Bat-2 {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .door-1,
+  .door-2,
+  .clock-1,
+  .clock-2 {
+    height: 28rem;
+    width: 28rem;
+  }
+
+  .skull-1,
+  .skull-2 {
+    height: 28rem;
+    width: 28rem;
+    top: 0rem;
+  }
+
+  .text-box {
+    height: 14rem;
+  }
+
+  .next-btn {
+    margin-top: 1%;
+  }
+}
+
+/* Height 448px */
+@media (min-height: 26rem) and (max-height: 28rem) {
+  .house-img {
+    height: 26rem;
+    width: 26rem;
+    top: -6rem;
+  }
+
+  #small-bat {
+    left: 19rem;
+    top: 4rem;
+  }
+
+  #small-bat-2 {
+    right: 16rem;
+    top: 10rem;
+  }
+
+  #big-bat {
+    bottom: -5rem;
+  }
+
+  .Bat-1,
+  .Bat-2 {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .door-1,
+  .door-2,
+  .clock-1,
+  .clock-2 {
+    height: 32rem;
+    width: 32rem;
+  }
+
+  .skull-1,
+  .skull-2 {
+    height: 30rem;
+    width: 30rem;
+    top: 0rem;
+  }
+
+  .text-box {
+    height: 15rem;
+  }
+
+  .next-btn {
+    margin-top: 1%;
+  }
+}
+
+/* Height 480px */
+@media (min-height: 28rem) and (max-height: 30rem) {
+  .house-img {
+    height: 28rem;
+    width: 28rem;
+    top: -7rem;
+  }
+
+  #small-bat {
+    left: 19rem;
+    top: 4rem;
+  }
+
+  #small-bat-2 {
+    right: 16rem;
+    top: 10rem;
+  }
+
+  #big-bat {
+    bottom: -5rem;
+  }
+
+  .Bat-1,
+  .Bat-2 {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .door-1,
+  .door-2,
+  .clock-1,
+  .clock-2 {
+    height: 34rem;
+    width: 34rem;
+  }
+
+  .skull-1,
+  .skull-2 {
+    height: 32rem;
+    width: 32rem;
+    top: -1rem;
+  }
+}
+
+/* Height 512px */
+@media (min-height: 30rem) and (max-height: 32rem) {
+  .house-img {
+    height: 30rem;
+    width: 30rem;
+    top: -9rem;
+  }
+
+  #small-bat {
+    left: 19rem;
+    top: 4rem;
+  }
+
+  #small-bat-2 {
+    right: 16rem;
+    top: 10rem;
+  }
+
+  #big-bat {
+    bottom: -5rem;
+  }
+
+  .Bat-1,
+  .Bat-2 {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .door-1,
+  .door-2,
+  .clock-1,
+  .clock-2 {
+    height: 36rem;
+    width: 36rem;
+  }
+
+  .skull-1,
+  .skull-2 {
+    height: 34rem;
+    width: 34rem;
+    top: -1rem;
+  }
+}
+
+/* Height 576px */
+@media (min-height: 32rem) and (max-height: 36rem) {
+  .house-img {
+    height: 38rem;
+    width: 38rem;
+    top: -12rem;
+  }
+
+  .door-1,
+  .door-2,
+  .clock-1,
+  .clock-2 {
+    height: 40rem;
+    width: 40rem;
+  }
+
+  .skull-1,
+  .skull-2 {
+    height: 38rem;
+    width: 38rem;
+    top: -1rem;
+  }
+}
+
+/* Height 608px */
+@media (min-height: 36rem) and (max-height: 38rem) {
+  .door-1,
+  .door-2,
+  .clock-1,
+  .clock-2 {
+    height: 44rem;
+    width: 44rem;
+  }
+
+  .skull-1,
+  .skull-2 {
+    height: 44rem;
+    width: 44rem;
+    top: 0rem;
+  }
+}
+
+/* Height 640px */
+@media (min-height: 38rem) and (max-height: 40rem) {
+  .door-1,
+  .door-2,
+  .clock-1,
+  .clock-2 {
+    height: 48rem;
+    width: 48rem;
+  }
+
+  .skull-1,
+  .skull-2 {
+    height: 48rem;
+    width: 48rem;
+    top: 0rem;
+  }
+}
+
+/* Height 672px */
+@media (min-height: 40rem) and (max-height: 42rem) {
+  .door-1,
+  .door-2,
+  .clock-1,
+  .clock-2 {
+    height: 52rem;
+    width: 52rem;
+  }
+
+  .skull-1,
+  .skull-2 {
+    height: 52rem;
+    width: 52rem;
+    top: 0rem;
+  }
+}
